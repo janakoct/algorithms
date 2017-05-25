@@ -2,6 +2,7 @@ package algorithms.mainpackage;
 
 import algorithms.binarysearch.BinarySearch;
 import algorithms.linearsearch.LinearSearch;
+import algorithms.selectionsort.SelectionSort;
 
 public class UtilityClass {
 
@@ -51,5 +52,14 @@ public class UtilityClass {
 				System.out.println("Element " + numbersToBeSearchedInTheArray[i] + " not found!");
 			}
 		}
+	}
+	
+	protected static void doSelectionSort() {
+		int[] arrayToBeSorted1 = {91, 90, 89, 76, 64, 53, 48, 37, 28, 19, 1};
+		SelectionSort selectionSort = new SelectionSort();
+		selectionSort.selectionSort(arrayToBeSorted1);
+		
+		int[] arrayToBeSorted2 = {-43, -69, 0, -347, 800, 93, 1, -4};
+		selectionSort.selectionSort(arrayToBeSorted2);
 	}
 }

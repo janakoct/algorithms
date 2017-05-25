@@ -9,5 +9,7 @@ public class MainClass {
 		UtilityClass.doBinarySearchRecursive();
 		System.out.println("********** Iterative Binary Search **********");
 		UtilityClass.doBinarySearchIterative();
+		System.out.println("********** Selection Sort **********");
+		UtilityClass.doSelectionSort();
 	}
 }
