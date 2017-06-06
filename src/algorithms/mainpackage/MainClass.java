@@ -13,5 +13,7 @@ public class MainClass {
 		UtilityClass.doSelectionSort();
 		System.out.println("********** Bubble Sort **********");
 		UtilityClass.doBubbleSort();
+		System.out.println("********** Insertion Sort **********");
+		UtilityClass.doInsertionSort();
 	}
 }
