@@ -1,6 +1,7 @@
 package algorithms.mainpackage;
 
 import algorithms.binarysearch.BinarySearch;
+import algorithms.bubblesort.BubbleSort;
 import algorithms.linearsearch.LinearSearch;
 import algorithms.selectionsort.SelectionSort;
 
@@ -61,5 +62,14 @@ public class UtilityClass {
 		
 		int[] arrayToBeSorted2 = {-43, -69, 0, -347, 800, 93, 1, -4};
 		selectionSort.selectionSort(arrayToBeSorted2);
+	}
+	
+	protected static void doBubbleSort() {
+		int[] arrayToBeSorted1 = {91, 90, 89, 76, 64, 53, 48, 37, 28, 19, 1};
+		BubbleSort bubbleSort = new BubbleSort();
+		bubbleSort.bubbleSort(arrayToBeSorted1);
+		
+		int[] arrayToBeSorted2 = {-43, -69, 0, -347, 800, 93, 1, -4};
+		bubbleSort.bubbleSort(arrayToBeSorted2);
 	}
 }

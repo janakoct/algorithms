@@ -11,5 +11,7 @@ public class MainClass {
 		UtilityClass.doBinarySearchIterative();
 		System.out.println("********** Selection Sort **********");
 		UtilityClass.doSelectionSort();
+		System.out.println("********** Bubble Sort **********");
+		UtilityClass.doBubbleSort();
 	}
 }
