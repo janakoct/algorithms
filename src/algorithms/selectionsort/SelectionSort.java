@@ -1,10 +1,12 @@
 package algorithms.selectionsort;
 
+import algorithms.mainpackage.UtilityClass;
+
 public class SelectionSort {
 
 	public void selectionSort(int[] arrayToBeSorted) {
 		System.out.print("Unsorted Array : ");
-		printArray(arrayToBeSorted);
+		UtilityClass.printArray(arrayToBeSorted);
 		int arrayLength = arrayToBeSorted.length;
 		for (int i = 0; i < arrayLength - 1; i++) {
 			int minimumIndex = i;
@@ -18,14 +20,6 @@ public class SelectionSort {
 			}
 		}
 		System.out.print("Sorted Array   : ");
-		printArray(arrayToBeSorted);
-	}
-
-	private void printArray(int[] arrayToBePrinted) {
-		int arrayLength = arrayToBePrinted.length;
-		for (int i = 0; i < arrayLength; i++) {
-			System.out.print(arrayToBePrinted[i] + " ");
-		}
-		System.out.println();
+		UtilityClass.printArray(arrayToBeSorted);
 	}
 }

@@ -15,5 +15,7 @@ public class MainClass {
 		UtilityClass.doBubbleSort();
 		System.out.println("********** Insertion Sort **********");
 		UtilityClass.doInsertionSort();
+		System.out.println("********** Merge Sort **********");
+		UtilityClass.doMergeSort();
 	}
 }
