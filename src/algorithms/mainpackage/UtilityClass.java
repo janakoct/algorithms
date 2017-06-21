@@ -55,6 +55,9 @@ public class UtilityClass {
 		}
 	}
 
+	/**
+	 * Iterative Binary Search Block
+	 */
 	protected static void doBinarySearchIterative() {
 		int[] sortedArray = { 1, 9, 45, 56, 89, 123, 456, 987 };
 		int[] numbersToBeSearchedInTheArray = { 1, 987, 0, 777, 45, 89, 123, -25 };
@@ -71,6 +74,9 @@ public class UtilityClass {
 		}
 	}
 
+	/**
+	 * Selection Sort Block
+	 */
 	protected static void doSelectionSort() {
 		int[] arrayToBeSorted1 = { 91, 90, 89, 76, 64, 53, 48, 37, 28, 19, 1 };
 		SelectionSort selectionSort = new SelectionSort();
@@ -80,6 +86,9 @@ public class UtilityClass {
 		selectionSort.selectionSort(arrayToBeSorted2);
 	}
 
+	/**
+	 * Bubble Sort block
+	 */
 	protected static void doBubbleSort() {
 		int[] arrayToBeSorted1 = { 91, 90, 89, 76, 64, 53, 48, 37, 28, 19, 1 };
 		BubbleSort bubbleSort = new BubbleSort();
@@ -89,6 +98,9 @@ public class UtilityClass {
 		bubbleSort.bubbleSort(arrayToBeSorted2);
 	}
 
+	/**
+	 * Insertion Sort Block
+	 */
 	protected static void doInsertionSort() {
 		int[] arrayToBeSorted1 = { 91, 90, 89, 76, 64, 53, 48, 37, 28, 19, 1 };
 		InsertionSort insertionSort = new InsertionSort();
@@ -98,6 +110,9 @@ public class UtilityClass {
 		insertionSort.insertionSort(arrayToBeSorted2);
 	}
 	
+	/**
+	 * Merge Sort Block
+	 */
 	protected static void doMergeSort() {
 		
 		int[] arrayToBeSorted1 = { 91, 90, 89, 76, 64, 53, 48, 37, 28, 19, 1 };
